@@ -1,7 +1,6 @@
-#pragma once
-// Your name
-// Your UMKC Email Address
-// Today's date
+// Joe Epperson, IV
+// jee4cf@umsystem.edu
+// 4/12/2021
 // CS201L Lab 12
 
 #include <string>
@@ -21,6 +20,7 @@ private:
 	bool employed = true;
 public:
 	// Constructor
+	Employee();
 	Employee(int id, string myName);
 
 	// Getter to return the employee ID
